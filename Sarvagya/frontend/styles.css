@@ -1,0 +1,142 @@
+/* styles.css */
+
+.logo{
+  text-align: center;
+  margin-bottom: 12px;
+}
+.container1 {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensures full height even without content */
+}
+.card {
+    width: 100%;
+    height: 450px;
+    border-color: black;
+    border-radius: 2rem;
+    background-color: #8d99ae;
+  }
+  
+  #chat-history {
+    overflow-y: auto;
+    max-height: 300px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    word-wrap: break-word;
+  }
+  
+  .user {
+    background-color: #e6f7ff;
+  }
+  
+  .ai {
+    background-color: #f0f0f0;
+  }
+
+  #heading{
+    color: black;
+  }
+
+  #user-query{
+    margin-top: 20%;
+    border-radius: 2rem;
+    background-color: white;
+    border-color: black;
+  }
+
+  #response-container{
+    border-color: black; 
+    background-color:#8d99ae;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 50%;
+    height: 15%;
+  }
+
+  .btn-btn-primary{
+    margin-top: 80px;
+    color: black;
+  } 
+  button.centered {
+    margin: 0 auto;
+  } 
+
+  .center{
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .json-related{
+    margin-top: 50px;
+  }
+
+  .predefined-queries-box {
+    background-color: #8d99ae; /* Grey background */
+    padding: 20px;
+    border: 1px solid black; /* Border style and color */
+    text-align: center;
+    border-radius: 10px;
+    height: 800px;
+  }
+
+  .predefined-query {
+    cursor: pointer;
+    background-color: #ffbe0b; /* Light green color */
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    text-align: center; /* Center text horizontally */
+    line-height: 40px; /* Match the height of the button for vertical alignment */
+  }
+
+  .predefined-query:hover {
+    color: black;
+    background-color: #edf2f4; /* Darker green on hover */
+  }
+
+  /* .input-group .input-group-append {
+    color: black;
+    border-radius: 5px 5px 5px 5px; 
+  } */
+
+  /* Customizing send icon color and size */
+  /* .send-icon {
+    color: white; 
+    box-sizing: border-box;
+    font-size: 20px !important; 
+  }
+  .btn btn-primary send-icon{
+      color: rgb(177, 15, 39); 
+    box-sizing: 2px;
+    font-size: 20px !important;
+  } */
+
+  .btn.send-icon {
+      font-size: 24px; /* Adjust the size as needed */
+  }
+  .input-group-append{
+      margin-top: 205px;
+      margin-left: 5px;
+      height: 50px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 400px; /* Adjust as needed */
+}
